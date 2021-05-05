@@ -14,5 +14,6 @@ def is_blue(string):
 class TestModule(object):
     def tests (self):
         return {
+            
             'blue': is_blue
             }
