@@ -1,6 +1,9 @@
 ---
 - hosts: localhost
 
+  collections:
+    - local.colors
+
   vars:
     my_color_choice: blue
 
